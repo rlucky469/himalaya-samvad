@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "logo": "/images/brand/himalaya-samvad-logo.png",
+    "emblem": "/images/brand/himalaya-samvad-emblem.png",
+    "ogDefault": "/images/brand/og-himalaya-samvad-default.jpg"
+  },
+  "home": {
+    "hero": "/images/home/home-hero-himalayan-peaks-morning-mist.jpg"
+  },
+  "pageHeroes": {
+    "default": "/images/page-heroes/page-hero-misty-ridges.jpg",
+    "about": "/images/page-heroes/page-hero-misty-ridges.jpg",
+    "team": "/images/page-heroes/page-hero-blue-hour-peaks.jpg",
+    "issues": "/images/page-heroes/page-hero-evening-range.jpg",
+    "articles": "/images/page-heroes/page-hero-misty-ridges.jpg",
+    "membership": "/images/page-heroes/page-hero-evening-range.jpg",
+    "advertise": "/images/page-heroes/page-hero-blue-hour-peaks.jpg",
+    "contact": "/images/page-heroes/page-hero-misty-ridges.jpg",
+    "legal": "/images/page-heroes/page-hero-blue-hour-peaks.jpg"
+  },
+  "auth": {
+    "panel": "/images/auth/auth-panel-himalayan-village-dawn.jpg"
+  },
+  "about": {
+    "localVoices": [
+      "/images/about/local-voices-village-school.jpg",
+      "/images/about/local-voices-terraced-fields.jpg",
+      "/images/about/local-voices-womens-collective.jpg",
+      "/images/about/local-voices-young-entrepreneurs.jpg"
+    ]
+  },
+  "topics": {
+    "society": "/images/topics/topic-society-hill-village.jpg",
+    "culture": "/images/topics/topic-culture-evening-village.jpg",
+    "environment": "/images/topics/topic-environment-glacier-peaks.jpg",
+    "education": "/images/topics/topic-education-mountain-school.jpg",
+    "health": "/images/topics/topic-health-valley-road.jpg",
+    "development": "/images/topics/topic-development-river-valley.jpg"
+  },
+  "articles": {
+    "himalayan-climate-change-glaciers": "/images/articles/himalayan-climate-change-glaciers.jpg",
+    "palayan-empty-villages": "/images/articles/palayan-empty-villages.jpg",
+    "folk-traditions-new-generation": "/images/articles/folk-traditions-new-generation.jpg",
+    "jal-jangal-jameen-community-resources": "/images/articles/jal-jangal-jameen-community-resources.jpg",
+    "mountain-schools-access-quality": "/images/articles/mountain-schools-access-quality.jpg",
+    "remote-villages-healthcare": "/images/articles/remote-villages-healthcare.jpg",
+    "mountain-rural-economy": "/images/articles/mountain-rural-economy.jpg",
+    "women-of-the-hills-empowerment": "/images/articles/women-of-the-hills-empowerment.jpg",
+    "himalayan-youth-aspirations": "/images/articles/himalayan-youth-aspirations.jpg",
+    "himalayan-development-balance": "/images/articles/himalayan-development-balance.jpg"
+  },
+  "issues": {
+    "pratham-ank-october-2026": {
+      "cover": "/images/issues/pratham-ank-october-2026-cover.jpg"
+    }
+  },
+  "team": {
+    "vinay-kd": "/images/team/vinay-kd-portrait.jpg",
+    "mukesh-prasad-bahuguna": "/images/team/mukesh-prasad-bahuguna-portrait.jpg",
+    "vijaypal-rawat": "/images/team/vijaypal-rawat-portrait.jpg",
+    "akhilesh-dimri": "/images/team/akhilesh-dimri-portrait.jpg",
+    "pankaj-rawat": "/images/team/pankaj-rawat-portrait.jpg",
+    "chandrashekhar-kargeti": "/images/team/chandrashekhar-kargeti-portrait.jpg"
+  },
+  "fallbacks": {
+    "article": "/images/page-heroes/page-hero-misty-ridges.jpg",
+    "portrait": "/images/team/vinay-kd-portrait.jpg",
+    "cover": "/images/issues/pratham-ank-october-2026-cover.jpg"
+  }
+}

@@ -1,0 +1,1583 @@
+{
+  "meta": {
+    "siteName": "Himalaya Samvad",
+    "siteNameLatin": "Himalaya Samvad",
+    "titleTemplate": "%s | Himalaya Samvad",
+    "defaultTitle": "Himalaya Samvad — An Independent Hindi Monthly",
+    "defaultDescription": "Himalaya Samvad is an independent Hindi monthly magazine on Himalayan society, culture, environment, education, health and development — a place for serious, well-researched and constructive conversation.",
+    "keywords": [
+      "Himalaya Samvad",
+      "Hindi monthly magazine",
+      "Himalaya",
+      "Uttarakhand",
+      "migration",
+      "environment",
+      "climate change",
+      "folk culture",
+      "Dehradun",
+      "हिमालय संवाद"
+    ]
+  },
+  "brand": {
+    "name": "Himalaya Samvad",
+    "tagline": "Ideas • Dialogue • Possibilities",
+    "descriptor": "Independent Hindi Monthly",
+    "location": "Dehradun, Uttarakhand, India",
+    "closingLines": [
+      "For the Himalaya.",
+      "For society.",
+      "For the generations to come."
+    ],
+    "logoAlt": "Himalaya Samvad logo — snow peaks, a rising sun, a hill village and a pen"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "minutesRead": "{count} min read",
+    "author": "Author",
+    "home": "Home",
+    "breadcrumb": "You are here",
+    "comingSoon": "Links coming soon",
+    "copy": "Copy",
+    "copied": "Copied",
+    "close": "Close",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "search": "Search",
+    "skipToContent": "Skip to main content",
+    "optional": "optional",
+    "previous": "Previous",
+    "next": "Next",
+    "backToTop": "Back to top",
+    "page": "Page {page}",
+    "newTab": "(opens in a new tab)",
+    "demoBadge": "Demo"
+  },
+  "topBar": {
+    "descriptor": "Independent Hindi Monthly",
+    "location": "Dehradun, Uttarakhand",
+    "login": "Log in",
+    "register": "Sign up",
+    "account": "My account",
+    "logout": "Log out"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Editorial Board",
+    "currentIssue": "First Issue",
+    "articles": "Articles",
+    "membership": "Membership",
+    "advertise": "Advertise",
+    "contact": "Contact",
+    "subscribe": "Subscribe",
+    "mainLabel": "Main navigation",
+    "language": "Choose language",
+    "switchLanguage": "हिंदी में पढ़ें"
+  },
+  "footer": {
+    "about": "An independent space for serious, thoughtful conversation on Himalayan society, culture and environment.",
+    "quickLinksTitle": "Quick links",
+    "contactTitle": "Editorial & contact",
+    "socialTitle": "Social media",
+    "socialText": "Follow us for new articles, events and announcements.",
+    "newsletterTitle": "Email bulletin",
+    "newsletterText": "Get a note in your inbox when a new issue or event comes out.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterButton": "Join",
+    "newsletterSuccess": "Thank you — you're on the list.",
+    "rights": "© {year} Himalaya Samvad. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "search": {
+    "title": "Search the site",
+    "placeholder": "Search articles, topics or pages…",
+    "hint": "Type at least 2 characters",
+    "noResults": "Nothing found for “{query}”.",
+    "groups": {
+      "pages": "Pages",
+      "topics": "Topics",
+      "articles": "Articles"
+    }
+  },
+  "whatsapp": {
+    "label": "Chat with us on WhatsApp",
+    "prefill": "Hello Himalaya Samvad, I'd like some information."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Independent monthly • Ideas • Dialogue • Possibilities",
+      "titleLine1": "Why the Himalaya",
+      "titleLine2": "needs a conversation",
+      "description": "Himalaya Samvad is an independent Hindi monthly — an open forum for serious, constructive conversation about the society, culture and environment of the Himalaya.",
+      "primaryCta": "Read the first issue",
+      "secondaryCta": "About us",
+      "imageAlt": "Snow-covered Himalayan peaks in the morning mist",
+      "stats": [
+        {
+          "label": "Current issue",
+          "value": "Issue 1 • October 2026"
+        },
+        {
+          "label": "Areas of focus",
+          "value": "Six core themes"
+        },
+        {
+          "label": "An open forum",
+          "value": "Voices from the hill states"
+        }
+      ]
+    },
+    "intro": {
+      "eyebrow": "What we stand for",
+      "title": "Not a news digest — a shared space for ideas",
+      "text": "This magazine is not a record of events. It is an attempt to bring ideas, lived experience, research, public sentiment and new possibilities onto one page. We want researchers, teachers, journalists, activists, policymakers, students, writers and ordinary citizens to have an equal say here.",
+      "quote": "The future of any region is shaped less by plans and announcements than by an aware society, engaged citizens and honest conversation.",
+      "quoteSource": "Editorial Board, Himalaya Samvad"
+    },
+    "vision": {
+      "eyebrow": "Our outlook",
+      "title": "The Himalaya's questions are the nation's questions",
+      "subtitle": "Many of India's hardest questions about water, forests, climate, biodiversity and human development will be answered in the Himalaya. So Himalaya Samvad will work to make sure that —",
+      "items": [
+        {
+          "title": "People, forests and land",
+          "text": "Issues of people, forests and land are raised with the seriousness they deserve."
+        },
+        {
+          "title": "Development in balance",
+          "text": "There is real discussion about balancing development with the environment."
+        },
+        {
+          "title": "Respect for local knowledge",
+          "text": "Local knowledge, experience and tradition are given their due."
+        },
+        {
+          "title": "The hopes of the young",
+          "text": "Young people's ambitions and struggles get a platform."
+        },
+        {
+          "title": "Policy that listens",
+          "text": "The conversation between policy and society grows stronger."
+        },
+        {
+          "title": "Credit where it's due",
+          "text": "Good work and inspiring efforts get the recognition they deserve."
+        }
+      ]
+    },
+    "topics": {
+      "eyebrow": "What we cover",
+      "title": "Six themes, one shared concern",
+      "subtitle": "Seeing the Himalaya not as a line on a map, but as a living social, cultural and human landscape.",
+      "cta": "See articles",
+      "articleCount": "{count, plural, one {# article} other {# articles}}"
+    },
+    "latest": {
+      "eyebrow": "Ideas & analysis",
+      "title": "Latest articles",
+      "subtitle": "Selected pieces from the first issue",
+      "cta": "Read all articles"
+    },
+    "featuredIssue": {
+      "eyebrow": "Latest issue",
+      "badge": "New issue",
+      "highlightsTitle": "In this issue",
+      "primaryCta": "Read online",
+      "secondaryCta": "About this issue"
+    },
+    "membership": {
+      "eyebrow": "Membership",
+      "title": "Join the conversation",
+      "text": "Membership is more than a copy of the magazine. It is a way to take part in a shared forum on the issues, ideas and possibilities of the Himalaya.",
+      "moreLink": "Institutional and patron membership"
+    },
+    "team": {
+      "eyebrow": "Editorial board",
+      "title": "Experience, ideas and commitment",
+      "subtitle": "Colleagues with long years in journalism, teaching, development work, law and public life.",
+      "cta": "Meet the full board"
+    },
+    "advertise": {
+      "eyebrow": "Advertising & partnerships",
+      "title": "Reach readers who care",
+      "text": "If your organisation, business, school or social initiative wants to reach thoughtful, socially engaged readers, Himalaya Samvad is the right place to do it.",
+      "primaryCta": "Advertising details",
+      "secondaryCta": "Send an enquiry",
+      "formatsTitle": "Key ad positions"
+    },
+    "join": {
+      "title": "Be part of this conversation",
+      "text": "If you have an idea, an experience, research, an article, a local initiative or a story worth telling, we'd love to hear from you. Come, be part of this journey.",
+      "writeCta": "Send an article",
+      "subscribeCta": "Subscribe"
+    }
+  },
+  "topics": {
+    "eyebrow": "Topic",
+    "allTopics": "All topics",
+    "articlesTitle": "Articles on this topic",
+    "emptyArticles": "Articles on this topic will appear in upcoming issues.",
+    "otherTopics": "Other topics",
+    "items": [
+      {
+        "slug": "society",
+        "title": "Society",
+        "short": "Migration, livelihoods, village life, social change and public concerns.",
+        "description": [
+          "Hill society is changing fast. Villages are emptying out, the search for work is pulling young people to the plains, and old social structures are taking new shapes.",
+          "Under this theme we look at migration, livelihoods, village life, social change and public concerns — through both lived experience on the ground and research."
+        ]
+      },
+      {
+        "slug": "culture",
+        "title": "Culture",
+        "short": "Folk traditions, folk literature, music, language, history and heritage.",
+        "description": [
+          "The Himalaya's identity lives in its folk traditions, dialects, songs and festivals. This heritage has been handed down for generations, and today it is also at risk of fading.",
+          "Here we try to understand and keep alive folk traditions, folk literature, music, language, history and cultural heritage."
+        ]
+      },
+      {
+        "slug": "environment",
+        "title": "Environment",
+        "short": "Climate change, glaciers, forests, biodiversity and natural resources.",
+        "description": [
+          "The Himalaya is not just mountains — it holds the water sources and biodiversity that hundreds of millions depend on. Climate change and growing pressure on resources are straining that balance.",
+          "This theme brings a fact-based, balanced look at climate change, glaciers, forests, biodiversity and natural resources."
+        ]
+      },
+      {
+        "slug": "education",
+        "title": "Education",
+        "short": "School and higher education, research, innovation and the challenges young people face.",
+        "description": [
+          "Access to good schooling in remote hill areas is still a big question. At the same time, young people here are finding new paths in research, technology and innovation.",
+          "We bring out the experience of teachers, students and experts on school education, higher education, research, innovation and the challenges facing the young."
+        ]
+      },
+      {
+        "slug": "health",
+        "title": "Health",
+        "short": "Healthcare in the hills, public health, maternal and child health, and AYUSH.",
+        "description": [
+          "Mountain geography shapes who can reach a doctor and how fast. Distance, roads and resources make health a very different question in the hills.",
+          "This theme gives space to experience and ideas on mountain health systems, public health, maternal and child health, and AYUSH."
+        ]
+      },
+      {
+        "slug": "development",
+        "title": "Development",
+        "short": "Tourism, agriculture, enterprise, infrastructure, policy and governance.",
+        "description": [
+          "What kind of development suits the mountains? The question is old, and it has never mattered more. Finding the balance between development and conservation is the key to the Himalaya's future.",
+          "Here we try to open a real conversation between policymakers and society on tourism, farming, enterprise, infrastructure, policy and governance."
+        ]
+      }
+    ]
+  },
+  "articles": {
+    "eyebrow": "Ideas & analysis",
+    "title": "Articles",
+    "subtitle": "Summaries of articles published in Himalaya Samvad. The full pieces are in the online edition of the magazine.",
+    "filterAll": "All",
+    "filterLabel": "Filter by topic",
+    "empty": "No articles on this topic yet.",
+    "readInIssue": "Read the full article in the magazine",
+    "summaryNote": "This is a summary. The full article is on page {page} of {issue}.",
+    "publishedIn": "Published in",
+    "relatedTitle": "More from this issue",
+    "placeholderAuthor": "Author name",
+    "items": [
+      {
+        "slug": "himalayan-climate-change-glaciers",
+        "topic": "environment",
+        "title": "Changing Weather, Melting Glaciers: Climate Change Arrives in the Himalaya",
+        "excerpt": "How shifting patterns of snow, rain and glacier melt are showing up in the hills' water sources, farms and daily life.",
+        "summary": [
+          "The article opens with a simple question: is climate change a distant scientific debate for people in the hills, or an everyday reality? It looks at how changing weather is affecting fields, springs and seasonal livelihoods.",
+          "Putting local experience next to available studies, it asks how villages, panchayats and policymakers can each prepare to adapt."
+        ],
+        "author": "Author name",
+        "readMinutes": 12,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 6,
+        "featured": true
+      },
+      {
+        "slug": "palayan-empty-villages",
+        "topic": "society",
+        "title": "Emptying Villages: Why People Leave, and What Might Bring Them Back",
+        "excerpt": "Scarce jobs, schools and services are hollowing out hill villages. Is there a realistic way home?",
+        "summary": [
+          "Out-migration is the most talked-about and most stubborn challenge facing the Himalayan states. This piece tries to understand what pushes families to leave their villages.",
+          "It also looks at the small efforts of those who have returned and are starting again with farming, tourism or small enterprises."
+        ],
+        "author": "Author name",
+        "readMinutes": 9,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 7
+      },
+      {
+        "slug": "folk-traditions-new-generation",
+        "topic": "culture",
+        "title": "Folk Traditions and a New Generation: Keeping a Heritage Alive",
+        "excerpt": "Folk songs, festivals and dialects hold a people's memory. How does that heritage survive changing lifestyles?",
+        "summary": [
+          "Folk traditions are not just entertainment — they are a community's shared memory. The article asks where folk songs, instruments and dialects stand as towns grow and lifestyles change.",
+          "It also points to young people who are carrying this heritage forward through new mediums."
+        ],
+        "author": "Author name",
+        "readMinutes": 8,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 8
+      },
+      {
+        "slug": "jal-jangal-jameen-community-resources",
+        "topic": "environment",
+        "title": "Water, Forest and Land: Communities and Their Commons",
+        "excerpt": "Where the hills' tradition of community rights over natural resources — and community care for them — stands today.",
+        "summary": [
+          "In hill villages, water, forests and land were long managed as a shared responsibility. This piece sets out the strengths of that tradition and the pressures it now faces.",
+          "It also asks how local communities can be given a stronger role in conservation at the level of policy."
+        ],
+        "author": "Author name",
+        "readMinutes": 10,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 9
+      },
+      {
+        "slug": "mountain-schools-access-quality",
+        "topic": "education",
+        "title": "Schools in the Hills: A Question of Access, Quality and Trust",
+        "excerpt": "What conditions schools in remote villages are working in, and what could make them better.",
+        "summary": [
+          "Falling enrolment, too few teachers and long walks to class — many hill schools face all three. The article looks at these conditions through the eyes of teachers and parents.",
+          "It also discusses experiments that are creating better places to learn with very limited means."
+        ],
+        "author": "Author name",
+        "readMinutes": 7,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 10
+      },
+      {
+        "slug": "remote-villages-healthcare",
+        "topic": "health",
+        "title": "Healthcare for Remote Villages: Hard Problems, Real Possibilities",
+        "excerpt": "Bad roads, long distances and thin resources — how can healthcare in the hills be made reachable?",
+        "summary": [
+          "In the hills, falling ill often begins with a long journey. This piece lays out the basic challenges of mountain healthcare, with a close look at maternal and child health.",
+          "It also considers the role of local health workers and what technology could realistically offer."
+        ],
+        "author": "Author name",
+        "readMinutes": 9,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 11
+      },
+      {
+        "slug": "mountain-rural-economy",
+        "topic": "development",
+        "title": "The Rural Economy of the Hills: Farming, Livestock and New Openings",
+        "excerpt": "From traditional farming to homestays and local produce — ways to put the village economy on firmer ground.",
+        "summary": [
+          "For a long time the hill economy rested on farming and livestock. The article asks how solid that foundation still is.",
+          "It also discusses new openings in local produce, rural tourism and small enterprise."
+        ],
+        "author": "Author name",
+        "readMinutes": 8,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 12
+      },
+      {
+        "slug": "women-of-the-hills-empowerment",
+        "topic": "society",
+        "title": "Women of the Hills: Labour, Leadership and Empowerment",
+        "excerpt": "Women have always carried the hill economy — in the fields, the forest and the home. Today they are leading too.",
+        "summary": [
+          "Much of life in the hills rests on women's work. This piece is an attempt to recognise that contribution and understand the challenges women face.",
+          "It also draws attention to the growing leadership of women in self-help groups, panchayats and local initiatives."
+        ],
+        "author": "Author name",
+        "readMinutes": 9,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 13
+      },
+      {
+        "slug": "himalayan-youth-aspirations",
+        "topic": "education",
+        "title": "Young People of the Himalaya: Aspirations, Opportunities and Their Role",
+        "excerpt": "What does a generation shaping itself between education, technology and enterprise actually want?",
+        "summary": [
+          "A new generation in the Himalayan regions is building its identity between education, jobs, technology, enterprise and global opportunity. This article sets out their hopes and their hurdles.",
+          "It also asks how young people can become participants in change rather than spectators."
+        ],
+        "author": "Author name",
+        "readMinutes": 7,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 14
+      },
+      {
+        "slug": "himalayan-development-balance",
+        "topic": "development",
+        "title": "Developing the Himalaya: In Search of Balance",
+        "excerpt": "Roads, dams and tourism are real needs. How do we meet them without breaking a fragile mountain ecology?",
+        "summary": [
+          "The hills need development — but at what cost? This piece raises the question of environmental balance alongside infrastructure, tourism and energy projects.",
+          "Its argument is that development policy for the Himalaya has to be built with local communities and a real understanding of the environment."
+        ],
+        "author": "Author name",
+        "readMinutes": 11,
+        "issueSlug": "pratham-ank-october-2026",
+        "page": 15
+      }
+    ]
+  },
+  "issues": {
+    "archive": {
+      "eyebrow": "Archive",
+      "title": "Issues",
+      "subtitle": "Every issue of Himalaya Samvad published so far. Each one gathers ideas around a single central question.",
+      "current": "Current issue",
+      "upcomingTitle": "Next issue",
+      "upcomingText": "The next issue is being put together. Join the email bulletin or become a member to hear the moment it's out."
+    },
+    "labels": {
+      "issueNumber": "Issue {number}",
+      "monthly": "Hindi monthly",
+      "place": "Dehradun",
+      "readOnline": "Read online",
+      "viewDetails": "About this issue",
+      "subscribeLink": "Become a member and get every issue",
+      "editorialEyebrow": "Editorial",
+      "inThisIssueEyebrow": "In this issue",
+      "inThisIssueTitle": "Key articles in this issue",
+      "inThisIssueSubtitle": "Education, health, environment, culture, migration and development — the Himalaya seen from many angles.",
+      "gratitudeEyebrow": "With thanks",
+      "nextIssueEyebrow": "Next issue",
+      "nextIssueTitle": "We're inviting submissions for the next issue",
+      "nextIssueText": "Send us original, well-researched writing on the Himalaya, its society, culture, environment, education, health and development.",
+      "coverAlt": "Cover of {issue}"
+    },
+    "items": [
+      {
+        "slug": "pratham-ank-october-2026",
+        "number": 1,
+        "label": "First Issue",
+        "month": "October 2026",
+        "dateISO": "2026-10-01",
+        "title": "Why the Himalaya Needs a Conversation",
+        "description": "A magazine's first issue is more than the start of publication. It introduces the ideas, purpose and direction the magazine means to follow. This first issue of Himalaya Samvad comes to you in that spirit.",
+        "highlights": [
+          "himalayan-climate-change-glaciers",
+          "palayan-empty-villages",
+          "women-of-the-hills-empowerment"
+        ],
+        "editorial": {
+          "title": "Why the Himalaya Needs a Conversation",
+          "paragraphs": [
+            "A magazine's first issue is more than a formal start to publishing. It introduces the ideas, the purpose and the direction the magazine means to follow. This first issue of Himalaya Samvad comes to you in that spirit. It marks the beginning of a forum whose aim is to carry forward a serious, meaningful and wide-ranging conversation about the Himalaya and the people who live there.",
+            "The Himalaya is not just a chain of mountains. It underpins the culture, traditions, way of life, livelihoods and faith of hundreds of millions of people. Many of the country's great rivers begin here, and its ecology shapes a vast stretch of land far beyond the hills. And yet so many Himalayan questions — ecological balance, climate change, migration, education, health, jobs, the protection of culture, the challenges of development — rarely get the serious attention they deserve.",
+            "The Himalaya is passing through a time when the need to find a balance — between development and conservation, tradition and modernity, local needs and global pressures — is felt more sharply than ever. At such a time, conversation is not a choice; it is a necessity. That is why we chose the theme of our first issue: “Why the Himalaya needs a conversation.”",
+            "The theme is not just a question. It is an invitation to think together. We believe that understanding the issues that will decide the Himalaya's future, and finding answers to them, means bringing different viewpoints, experiences and ideas into the same room. Dialogue is what can build a bridge between society, policy, research and public feeling.",
+            "This issue carries articles on education, health, the environment, culture, water, forests and land, migration, the rural economy, women's empowerment, the role of young people, and Himalayan development. Through them we have tried to look at the Himalaya from many sides, and to help our readers do the same.",
+            "Our aim is not only to inform, but to provoke thought, bring hard questions into the open and strengthen a culture of constructive debate. We hope this issue will give readers, researchers, teachers, policymakers, social workers and engaged citizens something real to talk about."
+          ],
+          "pullQuote": "At such a time, conversation is not a choice; it is a necessity.",
+          "welcome": "Welcome to the conversation.",
+          "signature": "– The Editorial Board",
+          "signatureOrg": "Himalaya Samvad"
+        },
+        "gratitude": "As we set out, we want to thank every writer, collaborator, well-wisher and reader who put their faith in this effort and helped make it possible."
+      }
+    ]
+  },
+  "reader": {
+    "title": "Read online",
+    "back": "Back to the issue",
+    "pageOf": "Page {current} of {total}",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetZoom": "Actual size",
+    "closeZoom": "Close zoom",
+    "fullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "thumbnails": "All pages",
+    "prev": "Previous page",
+    "next": "Next page",
+    "loading": "Opening the magazine…",
+    "error": "The magazine couldn't be loaded. Please try opening the page again.",
+    "retry": "Try again",
+    "previewNote": "You're reading a preview — the first {count} pages are free.",
+    "lockedTitle": "Log in to read the full issue",
+    "lockedText": "Log in or create a free account to read the remaining {count} pages.",
+    "login": "Log in",
+    "register": "Sign up",
+    "printBlocked": "For security reasons this edition can't be printed or downloaded.",
+    "protectedNote": "This edition is for reading online only.",
+    "keyboardHint": "Use ← → keys to turn pages"
+  },
+  "team": {
+    "hero": {
+      "title": "Editorial Board",
+      "subtitle": "Experience, ideas and commitment"
+    },
+    "intro": {
+      "eyebrow": "Our editorial board",
+      "title": "Committed to the questions that matter in the hills",
+      "paragraphs": [
+        "The editorial board of Himalaya Samvad brings together people with very different backgrounds, views and areas of expertise. What they share is a commitment to understanding the questions facing Himalayan society seriously, sensitively and on the basis of facts — and to bringing them to our readers. The board draws on long experience in journalism, education, literature, the environment, social science, culture, health, administration and public life.",
+        "We believe any real conversation rests on respect for different viewpoints and an open exchange of ideas. The board's job is not only to choose and edit what we publish, but to make sure the magazine presents the real concerns, challenges, achievements and possibilities of Himalayan society in a way that is balanced and can be trusted."
+      ]
+    },
+    "chiefEyebrow": "Editor-in-Chief",
+    "boardEyebrow": "Editorial colleagues",
+    "boardTitle": "Editorial & Advisory Board",
+    "boardSubtitle": "Journalists, teachers, development professionals and a legal expert with years of work in the hills.",
+    "focusLabel": "Key interests",
+    "values": {
+      "eyebrow": "Editorial values",
+      "title": "What we hold to",
+      "items": [
+        {
+          "title": "Respect for every viewpoint",
+          "text": "Room for agreement and disagreement alike, so that the conversation stays genuinely open."
+        },
+        {
+          "title": "Facts first, fairly told",
+          "text": "Every subject presented with evidence, context and experience from the ground."
+        },
+        {
+          "title": "A culture of constructive debate",
+          "text": "A magazine that isn't just read, but sparks ideas and asks the questions others avoid."
+        }
+      ]
+    },
+    "closing": "Everyone involved with Himalaya Samvad brings their own experience, knowledge and sense of social responsibility to this effort. Our aim is to build a magazine that isn't just read — one that sparks ideas, asks questions and strengthens a culture of constructive conversation.",
+    "cta": {
+      "title": "Would you like to write for or work with Himalaya Samvad?",
+      "text": "If you have original writing, research or ground-level experience from the Himalaya, come and be part of the conversation.",
+      "primary": "Send an article",
+      "secondary": "Get in touch"
+    },
+    "members": [
+      {
+        "id": "vinay-kd",
+        "name": "Vinay K.D.",
+        "city": "Dehradun, Uttarakhand",
+        "role": "Editor-in-Chief",
+        "badge": "primary",
+        "chief": true,
+        "bio": "A senior IT professional, independent journalist and writer, Vinay K.D. is the founder and editor-in-chief of Himalaya Samvad. For fifteen years he has been writing and holding public conversations on Himalayan society, the environment, culture, rural tourism, village life and development. He is known for speaking up on Himalayan concerns, the voices of local communities and sustainable development.",
+        "focus": [
+          "Himalayan society",
+          "Environment",
+          "Rural tourism",
+          "Village life"
+        ]
+      },
+      {
+        "id": "mukesh-prasad-bahuguna",
+        "name": "Mukesh Prasad Bahuguna",
+        "city": "Dehradun, Uttarakhand",
+        "role": "Managing Editor",
+        "badge": "accent",
+        "bio": "A former Air Force serviceman, teacher, independent commentator and satirist, Mukesh Prasad Bahuguna has served as state vice-president of the Uttarakhand Government Teachers' Association. Widely known as ‘Mirchi Baba’, his articles and satire have appeared in many newspapers and magazines. His writing is sharp and to the point on the social issues and public concerns of the day.",
+        "focus": [
+          "Education",
+          "Satire",
+          "Current affairs"
+        ]
+      },
+      {
+        "id": "vijaypal-rawat",
+        "name": "Vijaypal Rawat",
+        "city": "Barkot, Uttarakhand",
+        "role": "Managing Editor",
+        "badge": "accent",
+        "bio": "Managing editor of Himalaya Samvad, Vijaypal Rawat is a social activist from Uttarakhand and a familiar name in public causes. He has long been active on water, forests and land, migration, environmental protection and disaster relief. His clear and outspoken stand on public-interest issues has earned him a distinct place across the hill regions.",
+        "focus": [
+          "Water, forests, land",
+          "Migration",
+          "Disaster relief"
+        ]
+      },
+      {
+        "id": "akhilesh-dimri",
+        "name": "Akhilesh Dimri",
+        "city": "Dehradun, Uttarakhand",
+        "role": "Consulting Editor",
+        "badge": "nature",
+        "bio": "A senior development professional, social thinker and rural development specialist, Akhilesh Dimri has spent two decades working on livelihoods, community empowerment, natural resource management and corporate social responsibility (CSR). Sustainable development and community-led initiatives in the hills of Uttarakhand have been at the centre of his work.",
+        "focus": [
+          "Livelihoods",
+          "Community empowerment",
+          "CSR"
+        ]
+      },
+      {
+        "id": "pankaj-rawat",
+        "name": "Pankaj Rawat",
+        "city": "Pauri, Uttarakhand",
+        "role": "Associate Editor",
+        "badge": "secondary",
+        "bio": "A senior journalist and writer on the side of the people, Pankaj Rawat has spent 26 years telling the story of Uttarakhand's land, society and village life. Water, forests and land, the environment, migration, democracy and development have been at the heart of his journalism. His reporting brings the Himalayan village — its struggles, its concerns and its changes — vividly to life.",
+        "focus": [
+          "Journalism",
+          "Democracy",
+          "Migration"
+        ]
+      },
+      {
+        "id": "chandrashekhar-kargeti",
+        "name": "Chandrashekhar Kargeti",
+        "city": "Haldwani, Uttarakhand",
+        "role": "Editor & Legal Advisor",
+        "badge": "cta",
+        "bio": "Chandrashekhar Kargeti is a senior advocate, RTI activist and a watchful voice on matters of public interest. He has long worked on the right to information, transparency, good governance and citizens' rights. He is the legal advisor to Himalaya Samvad.",
+        "focus": [
+          "Right to information",
+          "Good governance",
+          "Citizens' rights"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "title": "About us",
+      "subtitle": "A forum for serious, fact-based and constructive conversation on the Himalaya"
+    },
+    "whoWeAre": {
+      "eyebrow": "Introduction",
+      "title": "Who we are",
+      "paragraphs": [
+        "Himalaya Samvad is an independent Hindi monthly. Its purpose is to encourage serious, fact-based and constructive conversation on the social, cultural, environmental, educational, economic and development questions of the Himalayan region.",
+        "It is not a collection of news or events. It is an effort to bring forward the questions, worries, experiences and possibilities that shape the present and the future of the Himalaya and its people."
+      ]
+    },
+    "why": {
+      "eyebrow": "Why it matters",
+      "title": "Why talk about the Himalaya?",
+      "paragraphs": [
+        "The Himalaya is one of the most important mountain ranges on earth. It is not just a landform — it sustains the lives, culture, faith, water and livelihoods of hundreds of millions of people. Many of India's major rivers rise here, and a huge share of the country depends on the Himalaya, directly or indirectly.",
+        "Even so, Himalayan questions seldom get enough room in the national conversation. These are issues that need steady, serious and wide-ranging discussion."
+      ],
+      "issuesTitle": "Questions that need a conversation",
+      "issues": [
+        "Climate change",
+        "Migration",
+        "Education",
+        "Health",
+        "Over-use of resources",
+        "Cultural erosion",
+        "Livelihoods",
+        "Farming & tourism"
+      ]
+    },
+    "quote": {
+      "text": "No society develops through plans, budgets and projects alone. It develops through aware citizens, thoughtful debate and people taking part together.",
+      "source": "Himalaya Samvad"
+    },
+    "belief": {
+      "paragraphs": [
+        "Himalaya Samvad was conceived with exactly these needs in mind. Lasting, meaningful change becomes possible only when a society talks openly about its problems, listens to different points of view and works its way towards answers. Himalaya Samvad is a modest attempt to strengthen that process."
+      ]
+    },
+    "commitment": {
+      "eyebrow": "Our commitment",
+      "title": "A forum for dialogue — not for any party or ideology",
+      "subtitle": "The Himalaya's problems are complex, and their solutions will have many sides. That is why there has to be room for dialogue, and for both agreement and disagreement.",
+      "values": [
+        {
+          "title": "Fact-based",
+          "text": "Every idea tested against facts, research and experience on the ground."
+        },
+        {
+          "title": "Balanced",
+          "text": "Different points of view, given a respectful hearing."
+        },
+        {
+          "title": "Socially sensitive",
+          "text": "Attention to the people and lives behind the numbers."
+        },
+        {
+          "title": "Public interest",
+          "text": "Our first and last loyalty is to society."
+        }
+      ],
+      "nonPartisan": "We do not speak for any ideology, political party or interest group. We want to be a place where different ideas, experiences, research and viewpoints are all treated with respect."
+    },
+    "journey": {
+      "eyebrow": "Our journey",
+      "title": "From an idea to the first issue",
+      "steps": [
+        {
+          "label": "Step one",
+          "title": "The idea",
+          "text": "Born from the need for an independent Hindi forum on Himalayan concerns."
+        },
+        {
+          "label": "Step two",
+          "title": "The editorial board",
+          "text": "Experienced colleagues from journalism, education, development and law come on board."
+        },
+        {
+          "label": "October 2026",
+          "title": "The first issue",
+          "text": "Our first issue — “Why the Himalaya needs a conversation” — reaches readers."
+        }
+      ]
+    },
+    "localVoices": {
+      "eyebrow": "Local voices",
+      "title": "A platform for voices from the remote hills",
+      "paragraphs": [
+        "The experiences, struggles, achievements and new ideas of remote mountain areas often never reach the mainstream. Teachers, health workers, farmers, women's groups, young entrepreneurs, social workers, researchers and local communities working in the villages have a great deal to teach the rest of us.",
+        "We want their stories to reach a wider audience, so that the conversation about development is not just about numbers but about people's lives."
+      ],
+      "cta": "Share your local story",
+      "captions": [
+        "The village school",
+        "Terraced fields",
+        "Women's collective",
+        "Young entrepreneurs"
+      ]
+    },
+    "publish": {
+      "eyebrow": "What we publish",
+      "title": "What you'll find in the magazine",
+      "text": "We give the research and analysis of experts the same weight as the experience of ordinary citizens and the realities on the ground — because knowledge doesn't live only in universities and institutions; it lives in society too.",
+      "tags": [
+        "Society",
+        "Culture",
+        "Environment",
+        "Education",
+        "Health",
+        "Rural development",
+        "Tourism",
+        "Agriculture",
+        "Enterprise",
+        "Science",
+        "Literature",
+        "Folk traditions",
+        "History",
+        "Current policy"
+      ],
+      "bridge": "A bridge between research and society."
+    },
+    "youth": {
+      "title": "For young people",
+      "text": "A new generation in the Himalayan regions is shaping its identity between education, jobs, technology, enterprise and global opportunity. We don't want young people to stay readers only — we want them to be writers, researchers, conversation-starters and part of the change."
+    },
+    "global": {
+      "title": "Local, and beyond",
+      "text": "The future of the Himalaya is not only a matter for the Himalayan states. Water, climate, biodiversity, natural resources and ecological balance matter to the whole country and to the world."
+    },
+    "closing": {
+      "text": "Himalaya Samvad is more than a magazine. It is an ongoing effort — to connect ideas, to move the conversation forward and to look for what's possible. A better future starts with asking questions, and the answers come out of conversation.",
+      "teamCta": "Meet the editorial board",
+      "subscribeCta": "Subscribe"
+    }
+  },
+  "membership": {
+    "hero": {
+      "title": "Membership",
+      "subtitle": "Join the conversation. Be part of it."
+    },
+    "why": {
+      "eyebrow": "Why become a member?",
+      "title": "Join an ongoing effort, not just a magazine",
+      "paragraphs": [
+        "Himalaya Samvad is not only a magazine. It is an ongoing intellectual, social and cultural effort around the Himalaya and the people who live there. We believe meaningful change always begins with aware citizens, active participation and steady conversation.",
+        "Along with regular issues, members will hear about special editions, important announcements, events, discussion programmes and the knowledge resources we build over time.",
+        "Our goal is a community of readers who don't stop at reading, but take an active part in the conversation through their ideas, suggestions and experience."
+      ],
+      "coverCaption": "First Issue • October 2026"
+    },
+    "benefits": {
+      "eyebrow": "What you get",
+      "title": "Membership benefits",
+      "items": [
+        {
+          "id": "issues",
+          "title": "Every issue, regularly",
+          "text": "Members are assured access to every published issue, so they stay in touch with current Himalayan issues and debates."
+        },
+        {
+          "id": "special",
+          "title": "Special editions and research",
+          "text": "News of special editions, research-based articles, analysis and reference documents as they are published."
+        },
+        {
+          "id": "events",
+          "title": "First word on events",
+          "text": "Priority information about discussions, seminars, book launches, lecture series and other events we organise."
+        },
+        {
+          "id": "writing",
+          "title": "Chances to write and take part",
+          "text": "Members can send their ideas, research, experiences and articles for consideration. Suitable pieces may be selected for publication."
+        },
+        {
+          "id": "community",
+          "title": "A Himalayan knowledge community",
+          "text": "Become part of a growing network of researchers, teachers, writers, journalists, social workers and experts."
+        }
+      ]
+    },
+    "plans": {
+      "eyebrow": "Membership categories",
+      "title": "Choose the category that fits you",
+      "subtitle": "Membership fees will be announced shortly. Until then, send us your application and we'll share the full details of the process.",
+      "perYear": "/ year",
+      "pricePending": "₹ —",
+      "popular": "Popular",
+      "choose": "Apply",
+      "contact": "Contact us",
+      "items": [
+        {
+          "id": "individual",
+          "name": "Individual",
+          "label": "Regular readers",
+          "audience": "For readers who want to follow Himalaya Samvad regularly and stay in touch with what the magazine is doing.",
+          "price": ""
+        },
+        {
+          "id": "student",
+          "name": "Student",
+          "label": "Students & researchers",
+          "audience": "For students and research scholars at schools, colleges, universities and research institutions.",
+          "price": "",
+          "featured": true
+        },
+        {
+          "id": "digital",
+          "name": "Digital",
+          "label": "Readers in India & abroad",
+          "audience": "For readers in India and abroad who want to stay connected through the digital edition and online resources.",
+          "price": ""
+        },
+        {
+          "id": "institutional",
+          "name": "Institutional",
+          "label": "Institutions & libraries",
+          "audience": "For schools, colleges, universities, libraries, government and non-government bodies, research institutes and social organisations.",
+          "price": "",
+          "contactOnly": true
+        },
+        {
+          "id": "patron",
+          "name": "Patron",
+          "label": "Long-term supporters",
+          "audience": "For individuals, institutions and well-wishers who want to support the long-term work of Himalaya Samvad.",
+          "price": "",
+          "contactOnly": true
+        }
+      ]
+    },
+    "support": {
+      "eyebrow": "Your support",
+      "title": "Why your support matters",
+      "quote": "Independent, quality publishing doesn't run on editorial effort alone. It needs the trust, participation and support of its readers just as much.",
+      "text": "Your membership makes this effort stronger. It helps us to deliver —",
+      "points": [
+        "More research-driven writing",
+        "Better discussion programmes",
+        "A wider readership"
+      ]
+    },
+    "steps": {
+      "eyebrow": "How it works",
+      "title": "How to become a member",
+      "items": [
+        {
+          "title": "Pick a category",
+          "text": "Choose the membership category that suits you."
+        },
+        {
+          "title": "Fill in the form",
+          "text": "Complete and send the application form below."
+        },
+        {
+          "title": "Get confirmation",
+          "text": "Our team will get in touch with details of the membership process."
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Application",
+      "title": "Apply for membership",
+      "subtitle": "Fill in the form and we'll send you the details of the membership process, categories and anything else you need.",
+      "sideTitle": "Membership enquiries",
+      "sideText": "For questions about membership, delivery or institutional subscriptions, contact us directly."
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much does membership cost, and how do I pay?",
+          "a": "Membership fees will be announced shortly. Once we receive your application, we'll send payment details by email or phone. For anything else, write to subscription@himalayasamvad.in."
+        },
+        {
+          "q": "When and how will I receive the magazine?",
+          "a": "Full delivery details are shared when your membership is confirmed. For any questions, write to subscription@himalayasamvad.in."
+        },
+        {
+          "q": "Is there a digital edition?",
+          "a": "Yes. The online edition can be read on this website. You'll need to log in to read the full issue."
+        },
+        {
+          "q": "Can I download the online edition?",
+          "a": "No. The online edition is for reading on the website only and cannot be downloaded or printed."
+        },
+        {
+          "q": "How do institutional and patron memberships work?",
+          "a": "Choose the relevant category in the application form, or write directly to subscription@himalayasamvad.in."
+        }
+      ]
+    }
+  },
+  "advertise": {
+    "hero": {
+      "title": "Advertising & Partnerships",
+      "subtitle": "Put your name next to a meaningful conversation",
+      "primaryCta": "Talk to us about advertising",
+      "secondaryCta": "See ad positions"
+    },
+    "intro": {
+      "eyebrow": "Our platform",
+      "title": "Advertising as part of the conversation",
+      "paragraphs": [
+        "Himalaya Samvad is an independent Hindi monthly offering a space for serious, constructive discussion on Himalayan society, culture, environment, education, health, development, tourism, enterprise and public issues.",
+        "We don't see advertising as purely commercial — we see it as another way to take part in the conversation. We want to carry advertising that supports work in society, education, culture, tourism, enterprise, conservation, health, innovation and positive change."
+      ],
+      "whoTitle": "Who advertises with us",
+      "who": [
+        "Organisations & NGOs",
+        "Educational institutions",
+        "Businesses",
+        "Social initiatives",
+        "Tourism operators",
+        "Research institutions"
+      ]
+    },
+    "readers": {
+      "eyebrow": "Our readers",
+      "title": "Aware, thoughtful and engaged readers",
+      "subtitle": "Himalaya Samvad is read by people from many walks of life, including —",
+      "items": [
+        "Academics & researchers",
+        "Students & young readers",
+        "Journalists & writers",
+        "Social workers",
+        "People in policy & administration",
+        "Environment & development experts",
+        "Libraries & educational institutions",
+        "Tourism & hospitality entrepreneurs",
+        "Readers interested in the Himalayan states and mountain regions"
+      ]
+    },
+    "slots": {
+      "eyebrow": "Ad positions",
+      "title": "Available advertising space",
+      "subtitle": "The magazine offers ad positions to suit different needs and goals.",
+      "rateNote": "Contact us for rates",
+      "sizeLabel": "Size",
+      "bleedLabel": "Bleed size",
+      "finishLabel": "Finished size",
+      "mm": "mm",
+      "enquire": "Enquire",
+      "featuredBadge": "Highest visibility",
+      "items": [
+        {
+          "id": "back-cover",
+          "name": "Back cover",
+          "description": "The most prominent, most visible ad position in the magazine.",
+          "size": "A4 full page",
+          "widthMm": 210,
+          "heightMm": 297,
+          "bleed": "216 × 303",
+          "finish": "210 × 297",
+          "placement": "full",
+          "featured": true
+        },
+        {
+          "id": "inside-front-cover",
+          "name": "Inside front cover",
+          "description": "The prime page right after the cover.",
+          "size": "A4 full page",
+          "widthMm": 210,
+          "heightMm": 297,
+          "finish": "210 × 297",
+          "placement": "full"
+        },
+        {
+          "id": "inside-back-cover",
+          "name": "Inside back cover",
+          "description": "A prime position inside the back cover.",
+          "size": "A4 full page",
+          "widthMm": 210,
+          "heightMm": 297,
+          "finish": "210 × 297",
+          "placement": "full"
+        },
+        {
+          "id": "full-page",
+          "name": "Full page",
+          "description": "On any inside page of the magazine.",
+          "size": "210 × 297",
+          "widthMm": 210,
+          "heightMm": 297,
+          "placement": "full"
+        },
+        {
+          "id": "half-page-horizontal",
+          "name": "Half page (horizontal)",
+          "description": "The lower half of a page.",
+          "size": "180 × 125",
+          "widthMm": 180,
+          "heightMm": 125,
+          "placement": "bottom"
+        },
+        {
+          "id": "half-page-vertical",
+          "name": "Half page (vertical)",
+          "description": "A tall column along one side of a page.",
+          "size": "90 × 250",
+          "widthMm": 90,
+          "heightMm": 250,
+          "placement": "right"
+        },
+        {
+          "id": "quarter-page",
+          "name": "Quarter page",
+          "description": "One corner of a page.",
+          "size": "90 × 125",
+          "widthMm": 90,
+          "heightMm": 125,
+          "placement": "bottom-right"
+        }
+      ]
+    },
+    "special": {
+      "eyebrow": "Special options",
+      "title": "Special advertising options",
+      "subtitle": "We can also arrange the following, depending on your needs.",
+      "items": [
+        "Double-page spread",
+        "Special issue sponsorship",
+        "Cover association",
+        "Souvenir & event advertising",
+        "Institutional profile feature",
+        "Theme-based partnership"
+      ]
+    },
+    "specs": {
+      "eyebrow": "Artwork specifications",
+      "title": "When sending your artwork",
+      "subtitle": "Please keep the following in mind —",
+      "items": [
+        "PDF, AI, EPS or high-quality JPEG",
+        "Minimum 300 DPI resolution",
+        "CMYK colour mode",
+        "All fonts converted to outlines",
+        "Include a 3 mm bleed where needed"
+      ]
+    },
+    "policy": {
+      "eyebrow": "Advertising policy",
+      "title": "Our advertising policy",
+      "paragraphs": [
+        "Himalaya Samvad is committed to social responsibility and the public interest. The editorial board reserves the right to refuse any advertisement that is misleading, offensive, unverified or at odds with the spirit of the magazine.",
+        "Advertising is published independently of editorial content, and the views expressed in an advertisement are those of the advertiser."
+      ]
+    },
+    "enquiry": {
+      "eyebrow": "Get in touch",
+      "title": "Advertising & partnership enquiries",
+      "subtitle": "For advertising, sponsorship, institutional partnerships or special collaborations, please get in touch.",
+      "sideTitle": "Advertising desk",
+      "sideText": "We look forward to working with you to bring ideas, initiatives and possibilities from the Himalaya to a wider audience."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact us",
+      "subtitle": "Every conversation starts with a message"
+    },
+    "intro": {
+      "eyebrow": "Reach us",
+      "title": "We'd like to hear from you",
+      "paragraphs": [
+        "Himalaya Samvad exists not just to publish, but to build a real conversation between society, readers, writers, researchers, teachers, social workers and engaged citizens.",
+        "If you have a suggestion, feedback, an article, research, a public issue, a local initiative, an inspiring story — or anything you think a wider audience should hear about — we'd be glad to hear from you."
+      ]
+    },
+    "cards": [
+      {
+        "id": "editor",
+        "title": "Articles & submissions",
+        "text": "Send articles, research papers, travel writing, book reviews or opinion pieces."
+      },
+      {
+        "id": "ads",
+        "title": "Advertising & partnerships",
+        "text": "Advertising, special collaborations, institutional partnerships and sponsorship."
+      },
+      {
+        "id": "subscription",
+        "title": "Membership",
+        "text": "Membership, delivery and institutional subscriptions."
+      },
+      {
+        "id": "info",
+        "title": "General enquiries",
+        "text": "Suggestions, feedback and everything else."
+      }
+    ],
+    "form": {
+      "eyebrow": "Send a message",
+      "title": "Write to us",
+      "subtitle": "Fill in the form and our team will get back to you soon."
+    },
+    "office": {
+      "eyebrow": "Editorial office",
+      "title": "Himalaya Samvad",
+      "type": "Hindi monthly magazine",
+      "locationLabel": "Location",
+      "phoneLabel": "Mobile",
+      "emailLabel": "Email",
+      "websiteLabel": "Website",
+      "whatsappCta": "Message us on WhatsApp",
+      "mapTitle": "Map of Dehradun, Uttarakhand"
+    },
+    "submissions": {
+      "eyebrow": "Call for writing",
+      "title": "Sending us your writing",
+      "text": "We welcome original, well-researched writing on the Himalaya, society, culture, the environment, education, health, development, tourism, history, village life, literature, policy and public issues.",
+      "formatsTitle": "What you can send",
+      "formats": [
+        "Articles",
+        "Research papers",
+        "Travel writing",
+        "Book reviews",
+        "Opinion pieces"
+      ],
+      "topicsTitle": "Key subjects",
+      "topics": [
+        "Himalaya",
+        "Society",
+        "Culture",
+        "Environment",
+        "Education",
+        "Health",
+        "Development",
+        "Tourism",
+        "History",
+        "Village life",
+        "Literature",
+        "Policy",
+        "Public issues"
+      ],
+      "note": "Send your original, well-researched work to {email}."
+    },
+    "social": {
+      "eyebrow": "Social media",
+      "title": "Follow us",
+      "text": "Follow Himalaya Samvad on social media for our latest articles, events and special announcements."
+    },
+    "closing": {
+      "title": "What you say matters to us",
+      "paragraphs": [
+        "Himalaya Samvad is a shared platform. We value our readers' reactions, suggestions and constructive criticism. Your views help us get better and stay close to the people we write for.",
+        "Let's build a culture of conversation together — one that connects ideas, understands society and recognises the possibilities ahead."
+      ]
+    }
+  },
+  "forms": {
+    "fields": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "name@example.com",
+      "mobile": "Mobile number",
+      "mobilePlaceholder": "98765 43210",
+      "city": "City",
+      "cityPlaceholder": "e.g. Dehradun",
+      "state": "State",
+      "statePlaceholder": "e.g. Uttarakhand",
+      "address": "Address",
+      "addressPlaceholder": "House/street, locality",
+      "pincode": "PIN code",
+      "pincodePlaceholder": "6-digit PIN code",
+      "organization": "Organisation / business name",
+      "organizationPlaceholder": "Name of organisation",
+      "subject": "Subject",
+      "subjectPlaceholder": "Choose a subject",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here…",
+      "attachment": "Attach an article / file",
+      "attachmentHint": "Word, PDF or text file, up to 10 MB",
+      "attachmentButton": "Choose file",
+      "attachmentRemove": "Remove file",
+      "plan": "Membership category",
+      "planPlaceholder": "Choose a category",
+      "adSlot": "Ad position",
+      "adSlotPlaceholder": "Choose a position",
+      "issueMonth": "Issue / month",
+      "issueMonthPlaceholder": "e.g. December 2026",
+      "consentUpdates": "I'd like to receive updates from Himalaya Samvad by email/WhatsApp.",
+      "password": "Password",
+      "newPassword": "New password",
+      "passwordPlaceholder": "At least 8 characters",
+      "confirmPassword": "Confirm password",
+      "confirmPasswordPlaceholder": "Type the password again",
+      "identifier": "Email or mobile number",
+      "identifierPlaceholder": "e.g. name@example.com or 9876543210",
+      "otp": "OTP"
+    },
+    "subjects": [
+      {
+        "value": "article",
+        "label": "Submitting an article"
+      },
+      {
+        "value": "advertise",
+        "label": "Advertising & partnerships"
+      },
+      {
+        "value": "membership",
+        "label": "Membership"
+      },
+      {
+        "value": "feedback",
+        "label": "Suggestion / feedback"
+      },
+      {
+        "value": "other",
+        "label": "Something else"
+      }
+    ],
+    "submit": {
+      "contact": "Send message",
+      "membership": "Apply for membership",
+      "advertise": "Send enquiry",
+      "sending": "Sending…"
+    },
+    "success": {
+      "title": "Thank you!",
+      "contact": "We've received your message and will be in touch soon.",
+      "membership": "We've received your application. We'll send you details of the membership process shortly.",
+      "advertise": "We've received your enquiry. Our team will contact you soon.",
+      "again": "Send another message"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again in a little while.",
+      "network": "We couldn't reach the server. Please check your internet connection."
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "nameInvalid": "Please enter a valid name (2–60 characters)",
+    "emailInvalid": "Please enter a valid email address",
+    "mobileInvalid": "Please enter a valid 10-digit mobile number",
+    "identifierInvalid": "Enter a valid email or 10-digit mobile number",
+    "cityInvalid": "Please enter a valid city name",
+    "pincodeInvalid": "Please enter a valid 6-digit PIN code",
+    "passwordMin": "Password must be at least 8 characters",
+    "passwordWeak": "Password needs at least one letter and one number",
+    "passwordMismatch": "The passwords don't match",
+    "otpInvalid": "Please enter the 6-digit OTP",
+    "termsRequired": "Please accept the terms to continue",
+    "selectRequired": "Please choose an option",
+    "messageMin": "Please write at least 10 characters",
+    "messageMax": "Message can't be longer than 2000 characters",
+    "fileType": "Only Word, PDF or text files are accepted",
+    "fileSize": "File must be 10 MB or smaller",
+    "organizationRequired": "Organisation name is required for institutional membership"
+  },
+  "auth": {
+    "panel": {
+      "title": "Join the conversation",
+      "text": "Be part of an independent forum shaped by Himalayan concerns, open debate and careful research.",
+      "badges": {
+        "login": "Reader & researcher login",
+        "register": "Reader & researcher sign-up",
+        "verify": "Account verification",
+        "forgot": "Account recovery",
+        "reset": "Secure password reset"
+      },
+      "features": [
+        {
+          "title": "Read issues online",
+          "text": "Every published issue and special edition, online."
+        },
+        {
+          "title": "New issue alerts",
+          "text": "Be the first to hear about new issues and events."
+        },
+        {
+          "title": "Chances to write",
+          "text": "An open platform for articles, research and field notes."
+        }
+      ],
+      "support": "Help"
+    },
+    "register": {
+      "title": "Create an account",
+      "subtitle": "Fill in a few details and join the Himalaya Samvad community.",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "terms": "I agree to the <terms>Terms of Use</terms> and <privacy>Privacy Policy</privacy>."
+    },
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Log in to pick up where you left off.",
+      "submit": "Log in",
+      "remember": "Keep me logged in",
+      "forgot": "Forgot password?",
+      "noAccount": "New here?",
+      "registerLink": "Create an account"
+    },
+    "verify": {
+      "title": "Verify your account",
+      "subtitle": "To confirm it's you, enter the 6-digit codes sent to your mobile and email.",
+      "steps": [
+        "Sign up",
+        "Verify",
+        "Done"
+      ],
+      "mobileTitle": "Mobile verification",
+      "mobileText": "Enter the 6-digit OTP sent to {target}.",
+      "emailTitle": "Email verification",
+      "emailText": "Enter the 6-digit OTP sent to {target}.",
+      "verifyButton": "Verify",
+      "verified": "Verified",
+      "sendOtp": "Send OTP",
+      "resend": "Resend OTP",
+      "resendIn": "Resend OTP ({seconds}s)",
+      "otpSent": "OTP sent.",
+      "continue": "Continue",
+      "changeDetails": "Change mobile/email",
+      "missing": "We couldn't find an account waiting for verification. Please sign up first.",
+      "doneTitle": "Your account is ready!",
+      "doneText": "Your mobile and email are both verified. You can now read the full issue online.",
+      "doneCta": "Read the first issue",
+      "statusVerified": "Verified",
+      "statusPending": "Pending",
+      "mobileVerifiedNote": "Your mobile number is verified.",
+      "emailVerifiedNote": "Your email is verified.",
+      "submit": "Verify and continue",
+      "note": "Your account is activated as soon as both are verified."
+    },
+    "forgot": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your registered email or mobile number and we'll send you a security code (OTP) to reset your password.",
+      "submit": "Send OTP",
+      "back": "Back to log in",
+      "hint": "The email or mobile number you signed up with.",
+      "info": "If the code doesn't arrive within 60 seconds, check your spam folder or write to {email}.",
+      "remember": "Remembered your password?",
+      "loginLink": "Log in",
+      "noAccount": "New here?",
+      "registerLink": "Create an account"
+    },
+    "reset": {
+      "title": "Set a new password",
+      "subtitle": "Enter the 6-digit OTP sent to your mobile/email and choose a strong new password.",
+      "submit": "Change password",
+      "successTitle": "Password changed",
+      "successText": "Your password has been changed. You can now log in with your new password.",
+      "loginCta": "Log in",
+      "missing": "Please request an OTP with your email or mobile number first.",
+      "steps": [
+        "Verify identity",
+        "New password",
+        "Done"
+      ],
+      "otpLabel": "Security code (OTP)",
+      "change": "Change"
+    },
+    "password": {
+      "show": "Show password",
+      "hide": "Hide password",
+      "strengthLabel": "Password strength",
+      "strength": [
+        "Weak",
+        "Fair",
+        "Good",
+        "Strong"
+      ],
+      "hint": "At least 8 characters, with both letters and numbers.",
+      "strengthShort": "Strength"
+    },
+    "mockNotice": "Demo mode: any details work, the OTP is 123456.",
+    "loggedInAs": "Logged in as {name}",
+    "alreadyLoggedIn": "You're already logged in.",
+    "header": {
+      "help": "Help"
+    }
+  },
+  "legal": {
+    "updatedLabel": "Last updated",
+    "draftNote": "Draft — to be reviewed by the legal advisor before publishing.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "October 2026",
+      "intro": "Himalaya Samvad respects the privacy of your personal information. This policy explains what we collect, why we collect it and how we use it.",
+      "sections": [
+        {
+          "title": "What we collect",
+          "paragraphs": [
+            "We collect the details you give us when you sign up or fill in a membership, contact or advertising form — such as your name, email, mobile number, city and address.",
+            "Basic technical information from normal use of the site (such as your browser type) may be recorded for security and to improve the site."
+          ]
+        },
+        {
+          "title": "How we use it",
+          "paragraphs": [
+            "We use your information to run your account, process memberships, reply to your messages and — if you agree — to tell you about new issues and events.",
+            "We do not sell your personal information to anyone."
+          ]
+        },
+        {
+          "title": "The online magazine and security",
+          "paragraphs": [
+            "To protect the online edition, pages may carry a faint watermark linked to your account. Its only purpose is to discourage unauthorised sharing of the content."
+          ]
+        },
+        {
+          "title": "Your rights",
+          "paragraphs": [
+            "You can ask to see, correct or delete your information at any time by writing to info@himalayasamvad.in. You can leave the email bulletin whenever you like."
+          ]
+        },
+        {
+          "title": "Contact",
+          "paragraphs": [
+            "For any questions about this policy, write to info@himalayasamvad.in."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "updated": "October 2026",
+      "intro": "By using the Himalaya Samvad website and online magazine, you agree to the following terms.",
+      "sections": [
+        {
+          "title": "Ownership of content",
+          "paragraphs": [
+            "All articles, images and designs published on the website and in the magazine belong to Himalaya Samvad or the respective authors. They may not be republished or distributed without written permission."
+          ]
+        },
+        {
+          "title": "Using the online edition",
+          "paragraphs": [
+            "The online magazine is for personal reading only. Downloading it, copying it, circulating screenshots or sharing it on any other platform is a breach of these terms.",
+            "Each account is for the use of one person only."
+          ]
+        },
+        {
+          "title": "Authors' views",
+          "paragraphs": [
+            "Views expressed in published articles are the authors' own. The editorial board does not necessarily share them."
+          ]
+        },
+        {
+          "title": "Submitting work",
+          "paragraphs": [
+            "Work sent to us must be original. The editorial board has the final say on what is selected for publication."
+          ]
+        },
+        {
+          "title": "Changes",
+          "paragraphs": [
+            "These terms may change from time to time. Updated terms will always be published on this page."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "We couldn't find that page",
+    "text": "The page you're looking for may have been removed, or its address may have changed.",
+    "home": "Go to the home page",
+    "issue": "Read the first issue"
+  },
+  "errorPage": {
+    "title": "Something went wrong",
+    "text": "There was a problem loading this page. Please try again.",
+    "retry": "Try again"
+  },
+  "seo": {
+    "home": {
+      "title": "Himalaya Samvad — An Independent Hindi Monthly",
+      "description": "Serious, constructive writing on Himalayan society, culture, environment, education, health and development. First issue: “Why the Himalaya needs a conversation”."
+    },
+    "about": {
+      "title": "About us",
+      "description": "Himalaya Samvad is an independent Hindi monthly — a non-partisan forum for fact-based, balanced conversation on the Himalaya."
+    },
+    "team": {
+      "title": "Editorial Board",
+      "description": "Meet the editorial board of Himalaya Samvad — experienced people from journalism, education, development and law."
+    },
+    "issues": {
+      "title": "Issues",
+      "description": "Every issue of Himalaya Samvad — editorials, key articles and the online edition."
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Summaries of articles from Himalaya Samvad on society, culture, environment, education, health and development."
+    },
+    "membership": {
+      "title": "Membership",
+      "description": "Become a member of Himalaya Samvad — individual, student, digital, institutional and patron categories."
+    },
+    "advertise": {
+      "title": "Advertising & Partnerships",
+      "description": "Advertise in Himalaya Samvad — back cover, full, half and quarter page sizes, artwork specifications and our ad policy."
+    },
+    "contact": {
+      "title": "Contact us",
+      "description": "Get in touch with Himalaya Samvad to send an article, ask about membership or advertising, or share feedback. Dehradun, Uttarakhand."
+    },
+    "login": {
+      "title": "Log in",
+      "description": "Log in to your Himalaya Samvad account."
+    },
+    "register": {
+      "title": "Sign up",
+      "description": "Create a Himalaya Samvad account and read the full issue online."
+    },
+    "verify": {
+      "title": "Verify account",
+      "description": "Verify your mobile number and email."
+    },
+    "forgotPassword": {
+      "title": "Forgot password",
+      "description": "Reset your account password."
+    },
+    "resetPassword": {
+      "title": "New password",
+      "description": "Set a new password for your account."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "The Himalaya Samvad privacy policy."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Terms for using the Himalaya Samvad website and online magazine."
+    },
+    "reader": {
+      "title": "Read online",
+      "description": "The online edition of Himalaya Samvad."
+    }
+  }
+}

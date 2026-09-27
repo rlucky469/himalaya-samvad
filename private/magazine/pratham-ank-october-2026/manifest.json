@@ -1,0 +1,106 @@
+{
+  "slug": "pratham-ank-october-2026",
+  "totalPages": 16,
+  "previewPages": 4,
+  "pageWidth": 1400,
+  "pageHeight": 1980,
+  "pages": [
+    {
+      "number": 1,
+      "file": "page-001.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 2,
+      "file": "page-002.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 3,
+      "file": "page-003.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 4,
+      "file": "page-004.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 5,
+      "file": "page-005.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 6,
+      "file": "page-006.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 7,
+      "file": "page-007.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 8,
+      "file": "page-008.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 9,
+      "file": "page-009.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 10,
+      "file": "page-010.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 11,
+      "file": "page-011.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 12,
+      "file": "page-012.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 13,
+      "file": "page-013.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 14,
+      "file": "page-014.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 15,
+      "file": "page-015.webp",
+      "width": 1400,
+      "height": 1980
+    },
+    {
+      "number": 16,
+      "file": "page-016.webp",
+      "width": 1400,
+      "height": 1980
+    }
+  ],
+  "generatedAt": "2026-09-26T06:59:05.155Z"
+}

@@ -1,0 +1,109 @@
+/*
+ * Design tokens — the ONLY place colors, fonts, radii and shadows are defined.
+ * Every token becomes a CSS variable (e.g. --color-primary) and a Tailwind utility (e.g. bg-primary).
+ * To re-theme the site, change the values here.
+ */
+
+/* Desktop screens with little height (e.g. 1366×768 laptops): used to keep auth pages scroll-free */
+@custom-variant short (@media (min-width: 1024px) and (max-height: 820px));
+
+@theme {
+  /* Remove Tailwind's default palette so only brand tokens can be used */
+  --color-*: initial;
+  --font-*: initial;
+
+  /* Base */
+  --color-white: #ffffff;
+  --color-black: #0b0f19;
+
+  /* Primary — Himalayan navy (logo "हिमालय" lettering) */
+  --color-primary: #1b3a6b;
+  --color-primary-dark: #142d55;
+  --color-primary-deep: #0e2143;
+  --color-primary-soft: #dfe7f3;
+  --color-primary-tint: #f1f5fb;
+
+  /* Secondary — mountain blue */
+  --color-secondary: #4a6fa5;
+  --color-secondary-light: #8fa9cf;
+
+  /* Accent — Samvad red (logo "संवाद" lettering). Use sparingly: labels, tags, badges */
+  --color-accent: #d32027;
+  --color-accent-dark: #ad1a20;
+  --color-accent-soft: #fdecec;
+
+  /* Call to action — sunrise saffron (logo sun) */
+  --color-cta: #f28c1b;
+  --color-cta-hover: #dc7a0d;
+  --color-cta-soft: #fef1e2;
+
+  /* Nature — pine green (logo forest) */
+  --color-nature: #2e6b34;
+  --color-nature-soft: #e8f2e9;
+
+  /* Surfaces */
+  --color-canvas: #f8f9fb;
+  --color-surface: #ffffff;
+  --color-mist: #eef2f7;
+  --color-line: #e2e7ef;
+  --color-line-strong: #cbd4e1;
+
+  /* Text */
+  --color-ink: #1f2430;
+  --color-ink-soft: #3a4254;
+  --color-muted: #5b6475;
+  --color-on-dark: #ffffff;
+  --color-on-dark-muted: #c9d4e6;
+
+  /* Third-party brand */
+  --color-whatsapp: #25d366;
+
+  /* Typography */
+  --font-sans: "Mukta", "Nirmala UI", "Mangal", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Noto Serif Devanagari", "Nirmala UI", Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  /* Layout */
+  --container-site: 78rem;
+  --container-prose: 45rem;
+  --spacing-header: 4.5rem;
+
+  /* Radius */
+  --radius-card: 1rem;
+  --radius-panel: 1.5rem;
+
+  /* Elevation */
+  --shadow-card: 0 1px 2px rgb(14 33 67 / 0.04), 0 4px 16px rgb(14 33 67 / 0.06);
+  --shadow-lift: 0 12px 32px -8px rgb(14 33 67 / 0.18);
+  --shadow-cover: 0 30px 60px -20px rgb(14 33 67 / 0.45);
+  --shadow-cta: 0 10px 24px -8px rgb(242 140 27 / 0.55);
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-ken-burns: ken-burns 28s ease-in-out infinite alternate;
+  --animate-mist: mist-drift 40s linear infinite;
+  --animate-float: float-y 6s ease-in-out infinite;
+  --animate-fade-up: fade-up 0.8s var(--ease-out-soft) both;
+  --animate-pulse-ring: pulse-ring 2.4s ease-out infinite;
+
+  @keyframes ken-burns {
+    from { transform: scale(1) translate3d(0, 0, 0); }
+    to { transform: scale(1.12) translate3d(-2%, -1%, 0); }
+  }
+  @keyframes mist-drift {
+    from { transform: translate3d(-10%, 0, 0); }
+    to { transform: translate3d(10%, 0, 0); }
+  }
+  @keyframes float-y {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgb(37 211 102 / 0.5); }
+    80%, 100% { box-shadow: 0 0 0 18px rgb(37 211 102 / 0); }
+  }
+}
