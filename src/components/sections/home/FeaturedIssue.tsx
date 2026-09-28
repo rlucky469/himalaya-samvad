@@ -16,7 +16,7 @@ export async function FeaturedIssue({ issue, articles }: { issue: Issue; article
   const highlights = issue.highlights.map((slug) => articles.find((a) => a.slug === slug)).filter((a): a is Article => Boolean(a));
 
   return (
-    <Section tone="mist">
+    <Section tone="white" className="border-line border-b-1">
       <div className="relative overflow-hidden rounded-panel border border-line bg-surface p-6 shadow-card sm:p-10 lg:p-14">
         <div aria-hidden className="absolute -right-24 -top-24 size-80 rounded-full bg-cta-soft blur-3xl" />
         <div className="relative grid items-center gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">

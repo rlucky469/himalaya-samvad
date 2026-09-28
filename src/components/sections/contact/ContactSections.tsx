@@ -85,7 +85,7 @@ export async function OfficeCard({ contact, location }: { contact: Contact; loca
           </li>
         ))}
       </ul>
-      <div className="px-5 pb-5">
+      {/* <div className="px-5 pb-5">
         <a
           href={whatsappLink(siteConfig.contact.whatsappNumber, tw("prefill"))}
           target="_blank"
@@ -95,7 +95,7 @@ export async function OfficeCard({ contact, location }: { contact: Contact; loca
           <WhatsappIcon className="size-5" />
           {o.whatsappCta}
         </a>
-      </div>
+      </div> */}
       <div className="relative aspect-[4/3] border-t border-line bg-mist">
         <iframe
           title={o.mapTitle}

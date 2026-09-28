@@ -24,7 +24,7 @@ export default async function SiteLayout({ children, params }: LayoutProps<"/[lo
         {children}
       </main>
       <SiteFooter />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </>
   );
 }

@@ -18,7 +18,8 @@ export async function TopicsSection({ topics, articleCounts }: { topics: Topic[]
           return (
             <Link
               key={topic.slug}
-              href={routes.topic(topic.slug)}
+              //href={routes.topic(topic.slug)}
+               href="#"
               {...reveal(i)}
               className="group relative flex flex-col overflow-hidden rounded-card border border-line bg-surface p-6 shadow-card transition-all duration-300 hover:-translate-y-1.5 hover:border-primary-soft hover:shadow-lift sm:p-7"
             >
@@ -27,14 +28,14 @@ export async function TopicsSection({ topics, articleCounts }: { topics: Topic[]
                 <span className="inline-flex size-13 items-center justify-center rounded-2xl bg-primary-tint text-primary transition-all duration-300 group-hover:rotate-6 group-hover:bg-primary group-hover:text-white">
                   <TopicIcon slug={topic.slug} aria-hidden className="size-6" />
                 </span>
-                <span className="rounded-full bg-accent-soft px-3 py-1 text-xs font-semibold text-accent">{t("articleCount", { count: articleCounts[topic.slug] ?? 0 })}</span>
+                {/* <span className="rounded-full bg-accent-soft px-3 py-1 text-xs font-semibold text-accent">{t("articleCount", { count: articleCounts[topic.slug] ?? 0 })}</span> */}
               </span>
               <h3 className="relative mt-5 text-2xl">{topic.title}</h3>
               <p className="relative mt-2 flex-1 text-ink-soft">{topic.short}</p>
-              <span className="relative mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
+              {/* <span className="relative mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
                 {t("cta")}
                 <ArrowRight aria-hidden className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
-              </span>
+              </span> */}
             </Link>
           );
         })}

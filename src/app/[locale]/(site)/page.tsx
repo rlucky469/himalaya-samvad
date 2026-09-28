@@ -33,7 +33,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <IntroSection />
       <VisionSection />
       <TopicsSection topics={content.topics.items} articleCounts={articleCounts} />
-      <LatestArticles articles={content.articles.items} topicTitles={topicTitles} />
+      {/* <LatestArticles articles={content.articles.items} topicTitles={topicTitles} /> */}
       <FeaturedIssue issue={issue} articles={content.articles.items} />
       <MembershipTeaser membership={content.membership} />
       <TeamPreview members={content.team.members} />

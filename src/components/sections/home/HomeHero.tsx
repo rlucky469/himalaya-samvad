@@ -17,7 +17,7 @@ export async function HomeHero() {
       <Parallax className="absolute inset-0 -z-20" strength={140}>
         <Image src={media.home.hero} alt={t("imageAlt")} fill priority sizes="100vw" className="animate-ken-burns object-cover" />
       </Parallax>
-      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-r from-primary-deep/95 via-primary/80 to-primary/20" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-r from-primary-deep/25 via-primary/60 to-primary/20" />
       <div aria-hidden className="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-gradient-to-t from-primary-deep/80 to-transparent" />
       {/* drifting mist */}
       <div aria-hidden className="pointer-events-none absolute inset-x-[-20%] bottom-24 -z-10 h-40 animate-mist bg-[radial-gradient(ellipse_at_center,rgb(255_255_255/0.18),transparent_65%)] blur-2xl" />

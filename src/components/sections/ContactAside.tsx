@@ -36,7 +36,7 @@ export async function ContactAside({ title, text, email }: { title: string; text
           </div>
         </li>
       </ul>
-      <a
+      {/* <a
         href={whatsappLink(siteConfig.contact.whatsappNumber, tw("prefill"))}
         target="_blank"
         rel="noopener noreferrer"
@@ -44,7 +44,7 @@ export async function ContactAside({ title, text, email }: { title: string; text
       >
         <WhatsappIcon className="size-5" />
         {t("whatsappCta")}
-      </a>
+      </a> */}
     </aside>
   );
 }

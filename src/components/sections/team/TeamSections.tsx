@@ -69,7 +69,7 @@ export function ChiefEditor({ member, eyebrow, focusLabel }: { member: TeamMembe
 
 export function BoardGrid({ team, members }: { team: Team; members: TeamMember[] }) {
   return (
-    <Section tone="white">
+    <Section  tone="mist">
       <SectionHeading eyebrow={team.boardEyebrow} title={team.boardTitle} subtitle={team.boardSubtitle} />
       {/* flex-wrap keeps the last row centred whatever the number of members */}
       <div className="flex flex-wrap justify-center gap-5">
