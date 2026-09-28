@@ -172,7 +172,7 @@ export function SocialSection({ contact, comingSoon }: { contact: Contact; comin
         </div>
         <div className="flex flex-col items-start gap-2 sm:items-end">
           <SocialLinks tone="light" comingSoonLabel={comingSoon} />
-          <p className="text-xs text-muted">({comingSoon})</p>
+          {/* <p className="text-xs text-muted">({comingSoon})</p> */}
         </div>
       </div>
     </Section>

@@ -53,8 +53,10 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/editoria
 export default async function EditorialBoardPage({ params }: PageProps<"/[locale]/editorial-board">) {
   await initPage(params);
   const { team } = await getContent();
+
+const members = team.members;
   // Chief editor is listed first inside the board grid, not in a separate section
-  const members = [...team.members].sort((a, b) => Number("chief" in b && b.chief) - Number("chief" in a && a.chief));
+ // const members = [...team.members].sort((a, b) => Number("chief" in b && b.chief) - Number("chief" in a && a.chief));
 
   return (
     <>

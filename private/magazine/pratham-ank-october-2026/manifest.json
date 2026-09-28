@@ -1,106 +1,346 @@
 {
   "slug": "pratham-ank-october-2026",
-  "totalPages": 16,
+  "totalPages": 56,
   "previewPages": 4,
-  "pageWidth": 1400,
-  "pageHeight": 1980,
+  "pageWidth": 1395,
+  "pageHeight": 1935,
   "pages": [
     {
       "number": 1,
       "file": "page-001.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 2,
       "file": "page-002.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 3,
       "file": "page-003.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 4,
       "file": "page-004.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 5,
       "file": "page-005.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 6,
       "file": "page-006.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 7,
       "file": "page-007.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 8,
       "file": "page-008.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 9,
       "file": "page-009.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 10,
       "file": "page-010.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 11,
       "file": "page-011.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 12,
       "file": "page-012.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 13,
       "file": "page-013.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 14,
       "file": "page-014.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 15,
       "file": "page-015.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
     },
     {
       "number": 16,
       "file": "page-016.webp",
-      "width": 1400,
-      "height": 1980
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 17,
+      "file": "page-017.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 18,
+      "file": "page-018.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 19,
+      "file": "page-019.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 20,
+      "file": "page-020.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 21,
+      "file": "page-021.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 22,
+      "file": "page-022.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 23,
+      "file": "page-023.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 24,
+      "file": "page-024.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 25,
+      "file": "page-025.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 26,
+      "file": "page-026.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 27,
+      "file": "page-027.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 28,
+      "file": "page-028.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 29,
+      "file": "page-029.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 30,
+      "file": "page-030.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 31,
+      "file": "page-031.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 32,
+      "file": "page-032.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 33,
+      "file": "page-033.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 34,
+      "file": "page-034.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 35,
+      "file": "page-035.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 36,
+      "file": "page-036.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 37,
+      "file": "page-037.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 38,
+      "file": "page-038.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 39,
+      "file": "page-039.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 40,
+      "file": "page-040.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 41,
+      "file": "page-041.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 42,
+      "file": "page-042.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 43,
+      "file": "page-043.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 44,
+      "file": "page-044.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 45,
+      "file": "page-045.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 46,
+      "file": "page-046.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 47,
+      "file": "page-047.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 48,
+      "file": "page-048.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 49,
+      "file": "page-049.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 50,
+      "file": "page-050.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 51,
+      "file": "page-051.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 52,
+      "file": "page-052.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 53,
+      "file": "page-053.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 54,
+      "file": "page-054.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 55,
+      "file": "page-055.webp",
+      "width": 1395,
+      "height": 1935
+    },
+    {
+      "number": 56,
+      "file": "page-056.webp",
+      "width": 1395,
+      "height": 1935
     }
   ],
-  "generatedAt": "2026-09-26T06:59:05.155Z"
+  "generatedAt": "2026-09-28T09:33:32.160Z"
 }

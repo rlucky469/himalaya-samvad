@@ -90,6 +90,9 @@
     "rights": "© {year} Himalaya Samvad. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use"
+    
+
+
   },
   "search": {
     "title": "Search the site",
@@ -562,7 +565,21 @@
       "secondary": "Get in touch"
     },
     "members": [
+     
       {
+        "id": "mukesh-prasad-bahuguna",
+        "name": "Mukesh Prasad Bahuguna",
+        "city": "Dehradun, Uttarakhand",
+        "role": "Executive Editor",
+        "badge": "accent",
+        "bio": "A former Air Force serviceman, teacher, independent commentator and satirist, Mukesh Prasad Bahuguna has served as state vice-president of the Uttarakhand Government Teachers' Association. Widely known as ‘Mirchi Baba’, his articles and satire have appeared in many newspapers and magazines. His writing is sharp and to the point on the social issues and public concerns of the day.",
+        "focus": [
+          "Education",
+          "Satire",
+          "Current affairs"
+        ]
+      },
+       {
         "id": "vinay-kd",
         "name": "Vinay K.D.",
         "city": "Dehradun, Uttarakhand",
@@ -578,25 +595,12 @@
         ]
       },
       {
-        "id": "mukesh-prasad-bahuguna",
-        "name": "Mukesh Prasad Bahuguna",
-        "city": "Dehradun, Uttarakhand",
-        "role": "Managing Editor",
-        "badge": "accent",
-        "bio": "A former Air Force serviceman, teacher, independent commentator and satirist, Mukesh Prasad Bahuguna has served as state vice-president of the Uttarakhand Government Teachers' Association. Widely known as ‘Mirchi Baba’, his articles and satire have appeared in many newspapers and magazines. His writing is sharp and to the point on the social issues and public concerns of the day.",
-        "focus": [
-          "Education",
-          "Satire",
-          "Current affairs"
-        ]
-      },
-      {
         "id": "vijaypal-rawat",
         "name": "Vijaypal Rawat",
         "city": "Barkot, Uttarakhand",
-        "role": "Managing Editor",
+        "role": "Executive Editor",
         "badge": "accent",
-        "bio": "Managing editor of Himalaya Samvad, Vijaypal Rawat is a social activist from Uttarakhand and a familiar name in public causes. He has long been active on water, forests and land, migration, environmental protection and disaster relief. His clear and outspoken stand on public-interest issues has earned him a distinct place across the hill regions.",
+        "bio": "Executive Editor of Himalaya Samvad, Vijaypal Rawat is a social activist from Uttarakhand and a familiar name in public causes. He has long been active on water, forests and land, migration, environmental protection and disaster relief. His clear and outspoken stand on public-interest issues has earned him a distinct place across the hill regions.",
         "focus": [
           "Water, forests, land",
           "Migration",

@@ -20,12 +20,13 @@ export const siteConfig = {
   },
   // Add the real profile URL when an account is created; null shows the "coming soon" state
   social: [
-    { id: "facebook", label: "Facebook", url: null },
-    { id: "instagram", label: "Instagram", url: null },
-    { id: "youtube", label: "YouTube", url: null },
-    { id: "x", label: "X (Twitter)", url: null },
-    { id: "linkedin", label: "LinkedIn", url: null },
+    { id: "facebook", label: "Facebook", url: "https://www.facebook.com/himalayasamvad/" },
+    { id: "instagram", label: "Instagram", url: "https://www.instagram.com/himalaya.samvad" },
+    { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@himalaya.samvad" },
+    //{ id: "x", label: "X (Twitter)", url: null },
+   // { id: "linkedin", label: "LinkedIn", url: null },
   ] as { id: SocialNetwork; label: string; url: string | null }[],
 } as const;
 
 export type ContactEmailKey = keyof typeof siteConfig.contact.emails;
+ 
