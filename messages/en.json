@@ -834,7 +834,7 @@
     "plans": {
       "eyebrow": "Membership categories",
       "title": "Choose the category that fits you",
-      "subtitle": "Membership fees will be announced shortly. Until then, send us your application and we'll share the full details of the process.",
+      "subtitle": "The membership fee is given below. Send your application through WhatsApp or email, and we will provide you with full details about the membership process.",
       "perYear": "/ year",
       "pricePending": "₹ —",
       "popular": "Popular",
@@ -846,14 +846,14 @@
           "name": "Individual",
           "label": "Regular readers",
           "audience": "For readers who want to follow Himalaya Samvad regularly and stay in touch with what the magazine is doing.",
-          "price": ""
+          "price": "₹ 840"
         },
         {
           "id": "student",
           "name": "Student",
           "label": "Students & researchers",
           "audience": "For students and research scholars at schools, colleges, universities and research institutions.",
-          "price": "",
+          "price": "₹ 600",
           "featured": true
         },
         {
@@ -861,7 +861,7 @@
           "name": "Digital",
           "label": "Readers in India & abroad",
           "audience": "For readers in India and abroad who want to stay connected through the digital edition and online resources.",
-          "price": ""
+          "price": "₹ 500"
         },
         {
           "id": "institutional",
