@@ -620,19 +620,7 @@
           "CSR"
         ]
       },
-      {
-        "id": "pankaj-rawat",
-        "name": "Pankaj Rawat",
-        "city": "Pauri, Uttarakhand",
-        "role": "Associate Editor",
-        "badge": "secondary",
-        "bio": "A senior journalist and writer on the side of the people, Pankaj Rawat has spent 26 years telling the story of Uttarakhand's land, society and village life. Water, forests and land, the environment, migration, democracy and development have been at the heart of his journalism. His reporting brings the Himalayan village — its struggles, its concerns and its changes — vividly to life.",
-        "focus": [
-          "Journalism",
-          "Democracy",
-          "Migration"
-        ]
-      },
+     
       {
         "id": "chandrashekhar-kargeti",
         "name": "Chandrashekhar Kargeti",
@@ -644,6 +632,19 @@
           "Right to information",
           "Good governance",
           "Citizens' rights"
+        ]
+      },
+       {
+        "id": "pankaj-rawat",
+        "name": "Pankaj Rawat",
+        "city": "Pauri, Uttarakhand",
+        "role": "Associate Editor",
+        "badge": "secondary",
+        "bio": "A senior journalist and writer on the side of the people, Pankaj Rawat has spent 26 years telling the story of Uttarakhand's land, society and village life. Water, forests and land, the environment, migration, democracy and development have been at the heart of his journalism. His reporting brings the Himalayan village — its struggles, its concerns and its changes — vividly to life.",
+        "focus": [
+          "Journalism",
+          "Democracy",
+          "Migration"
         ]
       }
     ]
