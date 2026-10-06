@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { localeMeta, routing, type AppLocale } from "@/i18n/routing";
@@ -13,6 +14,9 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { organizationSchema, websiteSchema } from "@/lib/structured-data";
 import { pick } from "@/lib/utils";
 import type { Messages } from "@/types/content";
+
+// Google Analytics (gtag.js); NEXT_PUBLIC_GA_ID can override it per environment
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-7SZTL14PNJ";
 
 // Only these namespaces are sent to the browser; page content stays on the server
 const CLIENT_NAMESPACES = ["common", "brand", "nav", "topBar", "footer", "search", "whatsapp", "forms", "validation", "auth", "reader", "errorPage"] as const;
@@ -61,6 +65,18 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
           </AuthProvider>
         </NextIntlClientProvider>
         <JsonLd data={[organizationSchema(messages, locale), websiteSchema(messages, locale)]} />
+        {/* Google tag (gtag.js) — loaded after the page is interactive, only in production builds */}
+        {process.env.NODE_ENV === "production" && GA_ID && (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );
