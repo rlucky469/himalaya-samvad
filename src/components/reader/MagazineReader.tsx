@@ -20,8 +20,8 @@ interface MagazineReaderProps {
   slug: string;
   title: string;
   backHref: string;
-  /** Private share link: unlocks every page without login */
-  shareToken?: string;
+  /** Server-made pass from /privileged-access: unlocks every page without login */
+  accessGrant?: string;
 }
 
 type Orientation = "portrait" | "landscape";
@@ -48,7 +48,7 @@ function createLockedPageElement(title: string, text: string) {
   return el;
 }
 
-export function MagazineReader({ slug, title, backHref, shareToken }: MagazineReaderProps) {
+export function MagazineReader({ slug, title, backHref, accessGrant }: MagazineReaderProps) {
   const t = useTranslations("reader");
   const { status } = useAuth();
   const pathname = usePathname();
@@ -71,12 +71,12 @@ export function MagazineReader({ slug, title, backHref, shareToken }: MagazineRe
 
   useReaderProtection(rootRef);
 
-  // 1. Ask for signed page URLs once we know whether the reader is logged in (a share link doesn't depend on login)
-  const accessKey = shareToken ? "share" : status;
+  // 1. Ask for signed page URLs once we know whether the reader is logged in (privileged access doesn't depend on login)
+  const accessKey = accessGrant ? "privileged" : status;
   useEffect(() => {
     if (accessKey === "loading") return;
     const controller = new AbortController();
-    fetchMagazinePages(slug, controller.signal, shareToken)
+    fetchMagazinePages(slug, controller.signal, accessGrant)
       .then((res) => {
         setData(res);
         setError(false);
@@ -85,7 +85,7 @@ export function MagazineReader({ slug, title, backHref, shareToken }: MagazineRe
         if ((e as Error).name !== "AbortError") setError(true);
       });
     return () => controller.abort();
-  }, [slug, accessKey, attempt, shareToken]);
+  }, [slug, accessKey, attempt, accessGrant]);
 
   const lockedCount = data && !data.unlocked ? data.totalPages - data.pages.length : 0;
 
@@ -254,7 +254,7 @@ export function MagazineReader({ slug, title, backHref, shareToken }: MagazineRe
       <footer className="relative z-20 flex items-center justify-between gap-3 border-t border-white/10 bg-black/30 px-4 py-2.5 text-xs text-white/70 backdrop-blur">
         <p className="inline-flex items-center gap-1.5">
           <ShieldCheck className="size-4 text-cta" />
-          {data && !data.unlocked ? t("previewNote", { count: data.previewPages }) : shareToken ? t("sharedNote") : t("protectedNote")}
+          {data && !data.unlocked ? t("previewNote", { count: data.previewPages }) : accessGrant ? t("privilegedNote") : t("protectedNote")}
         </p>
         <div className="flex items-center gap-1 sm:hidden">
           <button type="button" onClick={prev} aria-label={t("prev")} className={toolbarButton}>

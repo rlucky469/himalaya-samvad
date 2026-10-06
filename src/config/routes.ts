@@ -8,9 +8,9 @@ export const routes = {
   issues: "/issues",
   issue: (slug: string) => `/issues/${slug}`,
   reader: (slug: string) => `/issues/${slug}/read`,
-  // Private share links: full issue without login, only for people who have the link
-  shared: (token: string) => `/shared/${token}`,
-  sharedReader: (token: string) => `/shared/${token}/read`,
+  // Unlisted page: whoever has this URL reads the full current issue without login
+  privilegedAccess: "/privileged-access",
+  privilegedReader: "/privileged-access/read",
   currentIssue: `/issues/${siteConfig.currentIssueSlug}`,
   currentIssueReader: `/issues/${siteConfig.currentIssueSlug}/read`,
   articles: "/articles",

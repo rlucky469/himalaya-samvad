@@ -5,13 +5,13 @@ import type { MagazinePagesResponse } from "@/types/api";
 
 /**
  * Asks for the signed page-image URLs of an issue.
- * Logged-out readers get the free preview pages only; a login token or a share-link token unlocks the rest.
+ * Logged-out readers get the free preview pages only; a login token or a privileged-access grant unlocks the rest.
  */
-export async function fetchMagazinePages(slug: string, signal?: AbortSignal, shareToken?: string): Promise<MagazinePagesResponse> {
+export async function fetchMagazinePages(slug: string, signal?: AbortSignal, accessGrant?: string): Promise<MagazinePagesResponse> {
   const token = sessionStore.token();
   const headers: Record<string, string> = {};
   if (token) headers.Authorization = `Bearer ${token}`;
-  if (shareToken) headers["X-Share-Token"] = shareToken;
+  if (accessGrant) headers["X-Access-Grant"] = accessGrant;
   const response = await fetch(magazineEndpoints.pages(slug), {
     headers,
     cache: "no-store",

@@ -5,7 +5,7 @@ export type PageVariant = "full" | "thumb";
 
 const DEV_SECRET = "dev-only-magazine-secret-change-me";
 
-function secret() {
+export function signingSecret() {
   const value = process.env.MAGAZINE_SIGNING_SECRET;
   if (value && value.length >= 16) return value;
   if (process.env.NODE_ENV === "production") throw new Error("MAGAZINE_SIGNING_SECRET must be set (16+ characters) in production");
@@ -18,7 +18,7 @@ const encode = (value: string) => Buffer.from(value, "utf8").toString("base64url
 export const decodeWatermark = (value: string) => Buffer.from(value, "base64url").toString("utf8");
 
 function signature(slug: string, page: number, variant: PageVariant, exp: number, wm: string) {
-  return createHmac("sha256", secret()).update(`${slug}:${page}:${variant}:${exp}:${wm}`).digest("base64url");
+  return createHmac("sha256", signingSecret()).update(`${slug}:${page}:${variant}:${exp}:${wm}`).digest("base64url");
 }
 
 /** Short-lived URL for one page image. The watermark text is part of the signature, so it can't be edited. */

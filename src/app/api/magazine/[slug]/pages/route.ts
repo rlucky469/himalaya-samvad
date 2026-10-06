@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 
 const noStore = { "Cache-Control": "private, no-store, max-age=0", "X-Robots-Tag": "noindex, nofollow" };
 
-/** Signed page-image URLs for an issue: the free preview for everyone, every page for logged-in readers and share links. */
+/** Signed page-image URLs for an issue: the free preview for everyone, every page for logged-in readers and /privileged-access. */
 export async function GET(request: Request, ctx: RouteContext<"/api/magazine/[slug]/pages">) {
   const { slug } = await ctx.params;
   const manifest = await readManifest(slug);

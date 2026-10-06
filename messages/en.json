@@ -90,9 +90,6 @@
     "rights": "© {year} Himalaya Samvad. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use"
-    
-
-
   },
   "search": {
     "title": "Search the site",
@@ -519,7 +516,15 @@
     "register": "Sign up",
     "printBlocked": "For security reasons this edition can't be printed or downloaded.",
     "protectedNote": "This edition is for reading online only.",
-    "keyboardHint": "Use ← → keys to turn pages"
+    "keyboardHint": "Use ← → keys to turn pages",
+    "privilegedNote": "This is a special-access page — please don't forward its link."
+  },
+  "share": {
+    "badge": "Special access",
+    "title": "Read the full issue without logging in",
+    "text": "This page is only for people who have been given its link. Please don't share it further.",
+    "readCta": "Read the full issue",
+    "metaTitle": "Special access"
   },
   "team": {
     "hero": {
@@ -565,7 +570,6 @@
       "secondary": "Get in touch"
     },
     "members": [
-     
       {
         "id": "mukesh-prasad-bahuguna",
         "name": "Mukesh Prasad Bahuguna",
@@ -579,7 +583,7 @@
           "Current affairs"
         ]
       },
-       {
+      {
         "id": "vinay-kd",
         "name": "Vinay K.D.",
         "city": "Dehradun, Uttarakhand",
@@ -620,7 +624,6 @@
           "CSR"
         ]
       },
-     
       {
         "id": "chandrashekhar-kargeti",
         "name": "Chandrashekhar Kargeti",
@@ -634,7 +637,7 @@
           "Citizens' rights"
         ]
       },
-       {
+      {
         "id": "pankaj-rawat",
         "name": "Pankaj Rawat",
         "city": "Pauri, Uttarakhand",
