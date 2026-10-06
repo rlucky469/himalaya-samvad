@@ -14,7 +14,6 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/privileg
   const { locale } = await initPage(params);
   const t = await getTranslations({ locale, namespace: "share" });
   const meta = await buildMetadata({ locale, path: routes.privilegedAccess, title: t("metaTitle"), image: issueCover(siteConfig.currentIssueSlug), noIndex: true });
-  // Unlisted page: kept out of search results and not leaked to other sites through the Referer header
   return { ...meta, alternates: undefined, referrer: "no-referrer" };
 }
 
