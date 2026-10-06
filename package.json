@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "share:create": "node scripts/magazine/create-share-link.mjs",
+   
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
