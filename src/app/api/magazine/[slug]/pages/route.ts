@@ -8,13 +8,13 @@ export const dynamic = "force-dynamic";
 
 const noStore = { "Cache-Control": "private, no-store, max-age=0", "X-Robots-Tag": "noindex, nofollow" };
 
-/** Signed page-image URLs for an issue: the free preview for everyone, every page for logged-in readers. */
+/** Signed page-image URLs for an issue: the free preview for everyone, every page for logged-in readers and share links. */
 export async function GET(request: Request, ctx: RouteContext<"/api/magazine/[slug]/pages">) {
   const { slug } = await ctx.params;
   const manifest = await readManifest(slug);
   if (!manifest) return NextResponse.json({ message: "Issue not found" }, { status: 404, headers: noStore });
 
-  const access = await resolveReaderAccess(request);
+  const access = await resolveReaderAccess(request, slug);
   const allowed = access.authorized ? manifest.pages : manifest.pages.slice(0, manifest.previewPages);
 
   const body: MagazinePagesResponse = {

@@ -1,4 +1,5 @@
 import "server-only";
+import { shareWatermark, verifyShareLink } from "./share";
 
 interface ReaderAccess {
   authorized: boolean;
@@ -12,9 +13,16 @@ const apiBase = () => (process.env.NEXT_PUBLIC_API_BASE_URL ?? "").replace(/\/$/
 
 /**
  * Decides whether the request may read the full issue.
+ * A valid share link (X-Share-Token) unlocks that one issue without login.
  * Mock mode trusts demo tokens ("mock.<email>"); otherwise the token is checked against the backend's /auth/me.
  */
-export async function resolveReaderAccess(request: Request): Promise<ReaderAccess> {
+export async function resolveReaderAccess(request: Request, slug: string): Promise<ReaderAccess> {
+  const shareToken = request.headers.get("x-share-token");
+  if (shareToken) {
+    const link = verifyShareLink(shareToken, slug);
+    if (link.ok) return { authorized: true, watermark: shareWatermark(link) };
+  }
+
   const header = request.headers.get("authorization") ?? "";
   const token = header.startsWith("Bearer ") ? header.slice(7).trim() : "";
   if (!token) return { authorized: false, watermark: PREVIEW_WATERMARK };

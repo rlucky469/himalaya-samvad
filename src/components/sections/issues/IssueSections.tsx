@@ -14,7 +14,8 @@ import { siteConfig } from "@/config/site";
 import { issueCover } from "@/lib/media";
 import type { Article, Issue, Topic } from "@/types/content";
 
-export async function IssueHero({ issue }: { issue: Issue }) {
+/** readHref lets a private share page open the reader through its share link */
+export async function IssueHero({ issue, readHref = routes.reader(issue.slug) }: { issue: Issue; readHref?: string }) {
   const t = await getTranslations("issues.labels");
   const tn = await getTranslations("nav");
   return (
@@ -48,7 +49,7 @@ export async function IssueHero({ issue }: { issue: Issue }) {
               </li>
             </ul>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <ButtonLink href={routes.reader(issue.slug)} size="lg" icon={<BookOpen />} iconPosition="start">
+              <ButtonLink href={readHref} size="lg" icon={<BookOpen />} iconPosition="start">
                 {t("readOnline")}
               </ButtonLink>
               <Link href={routes.membershipApply} className="inline-flex items-center gap-1.5 px-2 py-3 font-semibold text-primary hover:text-accent">
